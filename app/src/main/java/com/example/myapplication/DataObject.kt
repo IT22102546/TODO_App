@@ -4,7 +4,7 @@ object DataObject {
     var listdata = mutableListOf<CardInfo>()
 
     fun setData(title: String, priority: String) {
-        // Since id is auto-generated, we don't need to provide it explicitly
+
         listdata.add(CardInfo(title = title, priority = priority))
     }
 
